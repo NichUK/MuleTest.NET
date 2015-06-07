@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuleTest.NET", "MuleTest.NET\MuleTest.NET.csproj", "{D18DD967-D355-4508-908A-753C566602B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0524DA7C-5AA9-4B04-995E-4D0C10E8B7B6}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuleTest.NET.Tests", "MuleTest.NET.Tests\MuleTest.NET.Tests.csproj", "{1994B918-4328-4D89-A2F3-F1114EF35F56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D18DD967-D355-4508-908A-753C566602B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18DD967-D355-4508-908A-753C566602B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18DD967-D355-4508-908A-753C566602B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18DD967-D355-4508-908A-753C566602B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1994B918-4328-4D89-A2F3-F1114EF35F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1994B918-4328-4D89-A2F3-F1114EF35F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1994B918-4328-4D89-A2F3-F1114EF35F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1994B918-4328-4D89-A2F3-F1114EF35F56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
